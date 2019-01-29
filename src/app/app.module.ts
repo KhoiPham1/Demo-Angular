@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontSizeComponent } from './font-size/font-size.component';
 import { PetComponent } from './pet/pet.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FontSizeComponent,
-    PetComponent
+    PetComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
